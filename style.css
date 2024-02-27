@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fisrtpage {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.picSz {
+    width: 200px;
+    height: 200px;
+    border-radius: 35%;
+    border: 5px solid black;
+    transition: width 2s, height 2s;
+}
+
+.picZoom {
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    border: 5px solid black;
+    transition: width 1s, height 1s;
+}
+
+.wholepage {
+    background-color: black;
+}
+
+.topPage {
+    background-image: linear-gradient(to right, rgb(34, 33, 32), red);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding: 10%;
+    font-family: "'Fira Code', monospace";
+}
+
+#lowerpage {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+}
+
+.bottompage {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+}
+
+/* button tabs when clicked on
+
+
+
+*/
+
+.newPageWhenClickedPop {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+
+    color: white;
+}
+
+.newPageWhenClickedCountry {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+
+    color: white;
+}
+
+.newPageWhenClickedRock {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+    color: white;
+}
+
+.newPageWhenClickedRnB {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+    color: white;
+}
+
+.newPageWhenClickedClassical {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 21)
+    );
+    color: white;
+}
+
+.newPageWhenClickedHipHop {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+    color: white;
+}
+
+.newPageWhenClickedJazz {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 23)
+    );
+    color: white;
+}
+
+.newPageWhenClickedEdm {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 0, 0),
+        rgb(9, 2, 17)
+    );
+
+    color: white;
+}
+
+.header {
+    padding-left: 15px;
+
+    border-bottom: 3px solid black;
+}
